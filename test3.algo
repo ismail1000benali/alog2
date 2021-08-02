@@ -1,0 +1,24 @@
+ALGORITHM test2
+ VAR 
+  tab1, tab2, i,j,t k:INTEGER
+
+
+  S: INTEGER=0
+ BEGIN
+  
+FOR i FROM 1 TO length(tab1) STEP 1  DO
+FOR j FROM 1 TO length(tab2) STEP 1  DO
+S=tab1[i]+tab2[j]
+
+IF (tab1[i]===tab[j]) THEN
+t[k]:=tab[i]
+S=S-2*tab1[i]
+ END_IF
+ 
+ END_FOR
+
+ END_FOR
+FOR K  FROM 1 TO length(t) STEP 1 DO
+ Write(t[k])
+ END_FOR
+ Write(s)
